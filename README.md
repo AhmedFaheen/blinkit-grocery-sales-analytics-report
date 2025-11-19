@@ -1,7 +1,14 @@
 # 🛒 BlinkIT Grocery Sales Analytics Report — Excel
 
-This repository contains a complete **BlinkIT Grocery Sales Analytics Report built in Excel**.  
-The project provides actionable insights into **sales performance, item categories, fat content, outlet size, outlet location, annual trends, and overall business KPIs** using Excel features like Power Query, Power Pivot / Data Model, PivotTables, and charts.
+This repository contains a complete **BlinkIT Grocery Sales Analytics Report built entirely in Microsoft Excel**.  
+The report analyzes BlinkIT grocery sales data using **Power Query (ETL), PivotTables, PivotCharts, Excel Data Model, and interactive slicers**.  
+It uncovers insights about **sales KPIs, item categories, fat content, outlet size, outlet tiers, outlet types, and yearly establishment trends**.
+
+---
+
+## 🖼️ Report Preview
+
+![BlinkIT Grocery Sales Report](BlinkIT_Report_Snapshot.png)
 
 ---
 
@@ -9,74 +16,139 @@ The project provides actionable insights into **sales performance, item categori
 
 | File Name | Description |
 |----------|-------------|
-| **BlinkIT_Grocery_Data_Excel_Report.xlsx** | Excel workbook containing the cleaned dataset, data model, PivotTables, and report sheets |
-| **BlinkIT_Report_Snapshot.png** | Screenshot of the BlinkIT Sales Analytics report |
+| **BlinkIT_Grocery_Data_Excel_Report.xlsx** | Excel workbook containing data cleaning (ETL), pivot tables, pivot charts, and final report |
+| **BlinkIT_Report_Snapshot.png** | Snapshot of the BlinkIT Grocery Sales Analytics report |
 | **README.md** | Project documentation |
 
 ---
 
 ## 🎯 Objective
 
-To analyze Blinkit grocery sales and uncover key insights related to:
+To analyze BlinkIT grocery sales and derive insights related to:
 
-- Sales performance  
-- Item type contribution  
-- Fat content analysis  
-- Outlet size & outlet type impact  
-- Outlet location (Tier 1 / Tier 2 / Tier 3)  
-- Year-wise outlet establishment performance  
-- Total sales, average sales, item count, and rating metrics
+- Total Sales  
+- Average Sales  
+- Number of Items  
+- Average Rating  
+- Item Type Contribution  
+- Fat Content Split  
+- Outlet Size Impact (Small / Medium / High)  
+- Outlet Location Type (Tier 1 / Tier 2 / Tier 3)  
+- Outlet Type Insights  
+- Outlet Establishment Trend (2011–2022)
 
-This Excel report highlights trends that drive business decisions in the retail & grocery sector.
+This Excel report supports retail and FMCG decision-making.
 
 ---
 
-## ⭐ Key Metrics Displayed
+## ⭐ Key Performance Indicators (KPIs)
 
 - **$1.20M — Total Sales**  
 - **$141 — Average Sales**  
-- **8,523 — Number of Items Sold**  
-- **4.0 — Average Rating**
+- **8,523 — No. of Items**  
+- **4.0 ⭐ — Average Rating**
 
 ---
 
 ## 📊 Major Insights From the Report
 
-- **Item Type Contribution:** Fruits & Vegetables, Snack Foods, Household, Frozen Foods, Dairy.  
-- **Fat Content Analysis:** Low Fat and Regular Fat contribute significant sales.  
-- **Outlet Type Performance:** Supermarkets vs Grocery stores — relative contributions.  
-- **Outlet Size:** Sales distribution across High / Medium / Small outlets.  
-- **Outlet Location (Tier):** Tier-wise revenue comparison (Tier 3 / Tier 2 / Tier 1).  
-- **Yearly Establishment Trend:** Outlet contribution trends by establishment year.
+### 🔹 1. Fat Content Analysis
+- **65%** of sales come from **Regular Fat** items  
+- **35%** from **Low Fat** items  
+
+### 🔹 2. Item Type Contribution
+Highest-selling categories:
+- Fruits & Vegetables  
+- Snack Foods  
+- Household Items  
+- Frozen Foods  
+- Dairy  
+- Health & Hygiene Products  
+- Beverages  
+- Starchy Foods  
+
+### 🔹 3. Fat by Outlet (Tier-wise)
+- **Tier 3** outlets contribute the highest fat-content sales  
+- **Tier 2** shows balanced performance  
+- **Tier 1** contributes the least among tiers
+
+### 🔹 4. Outlet Establishment (Year-wise Performance)
+Line chart shows outlet sales over years:
+- Growth trend from **2011** to **2022**  
+- Peak seen around **2018**
+
+### 🔹 5. Outlet Size Distribution
+Sales share by outlet size:
+- **Medium — 42%**  
+- **Small — 37%**  
+- **High — 21%**
+
+### 🔹 6. Outlet Location (Tier)
+Sales by Tier:
+- **Tier 3 → $471.1K**  
+- **Tier 2 → $393.2K**  
+- **Tier 1 → $386.4K**
+
+### 🔹 7. Outlet Type Analysis
+Sales contribution by store types such as:
+- Grocery Stores  
+- Supermarket Type 1  
+- Supermarket Type 2  
 
 ---
 
-## 🔍 Interactivity & Features (Excel)
+## 🔍 Interactive Elements (Excel)
 
-- **Power Query** — ETL: import, clean, transform and normalize source data.  
-- **Power Pivot / Data Model** — relationships, measures (DAX in Excel Power Pivot if used).  
-- **PivotTables** — dynamic aggregation and drill-down.  
-- **Pivot Charts & Standard Charts** — KPI visuals, bar/line/donut charts, area charts.  
-- **Slicers / Timelines** — interactive filtering by Outlet Size, Tier, Item Type, Fat Content, Year.
+This report uses:
+
+- **PivotTables** for calculations  
+- **PivotCharts** for visual breakdowns  
+- **Slicers** for interactive filtering  
+  - Outlet Size  
+  - Tier (1 / 2 / 3)  
+  - Item Type  
+  - Fat Content  
+  - Establishment Year  
+  - Outlet Type  
+- **Power Query** for data cleaning  
+- **Data Model (if enabled)** for relationships
 
 ---
 
-## ▶️ How to Open & Use
+## 🛠️ Tools & Techniques Used
+
+### ✔ Microsoft Excel
+- PivotTables  
+- PivotCharts  
+- Slicers  
+- Timelines  
+- Data Model  
+- Conditional Formatting  
+
+### ✔ Power Query (ETL)
+- Data cleaning  
+- Data transformation  
+- Removing nulls  
+- Column standardization  
+
+---
+
+## ▶️ How to Use the Report
 
 1. Download the Excel file:  
-2. Open the workbook in **Excel (Windows recommended)**.  
-3. If prompted, **Enable Content** and **Enable Data Connections**.  
-4. Use the pivot sheets and slicers to interact with the report.  
-5. (If using Power Pivot) Go to **Data → Manage Data Model** to view measures and relationships.  
-6. To refresh data: **Data → Refresh All** (after replacing or updating the raw data sheet).
+   **BlinkIT_Grocery_Data_Excel_Report.xlsx**
+2. Open in **Microsoft Excel (Windows recommended)**  
+3. Enable **Editing** and **Data Connections**  
+4. Use slicers to interact with item types, outlet tiers, sizes, and establishment years  
+5. Refresh data using **Data → Refresh All**  
 
 ---
 
 ## 📌 Notes
 
-- This project is implemented entirely in **Excel** (no Power BI).  
-- The workbook contains the source data and the interactive report sheets — suitable for sharing and further extension.  
-- No confidential information is included.
+- **100% Excel-based project** (no Power BI used).  
+- Dataset is safe and created for analytics/portfolio purposes.  
+- Visual theme uses BlinkIT-inspired colors (Yellow, Black, Green).  
 
 ---
 
