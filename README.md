@@ -1,9 +1,7 @@
-# 🛒 BlinkIT Grocery Sales Analytics Report — Power BI
+# 🛒 BlinkIT Grocery Sales Analytics Report — Excel
 
-This repository contains a complete **BlinkIT Grocery Sales Analytics Report** built using Power BI.  
-The project provides deep insights into **sales performance, item categories, fat content, outlet size, outlet location, annual trends, and overall business KPIs**.
-
-The report is designed for retail and FMCG analytics, helping teams understand product performance, outlet contribution, and customer buying behavior.
+This repository contains a complete **BlinkIT Grocery Sales Analytics Report built in Excel**.  
+The project provides actionable insights into **sales performance, item categories, fat content, outlet size, outlet location, annual trends, and overall business KPIs** using Excel features like Power Query, Power Pivot / Data Model, PivotTables, and charts.
 
 ---
 
@@ -11,7 +9,7 @@ The report is designed for retail and FMCG analytics, helping teams understand p
 
 | File Name | Description |
 |----------|-------------|
-| **BlinkIT_Grocery_Data_Excel_Report.xlsx** | Dataset used for building the Power BI report |
+| **BlinkIT_Grocery_Data_Excel_Report.xlsx** | Excel workbook containing the cleaned dataset, data model, PivotTables, and report sheets |
 | **BlinkIT_Report_Snapshot.png** | Screenshot of the BlinkIT Sales Analytics report |
 | **README.md** | Project documentation |
 
@@ -27,9 +25,9 @@ To analyze Blinkit grocery sales and uncover key insights related to:
 - Outlet size & outlet type impact  
 - Outlet location (Tier 1 / Tier 2 / Tier 3)  
 - Year-wise outlet establishment performance  
-- Total sales, average sales, item count, and rating metrics  
+- Total sales, average sales, item count, and rating metrics
 
-This report highlights trends that drive business decisions in the retail & grocery sector.
+This Excel report highlights trends that drive business decisions in the retail & grocery sector.
 
 ---
 
@@ -37,107 +35,48 @@ This report highlights trends that drive business decisions in the retail & groc
 
 - **$1.20M — Total Sales**  
 - **$141 — Average Sales**  
-- **8523 — Number of Items Sold**  
+- **8,523 — Number of Items Sold**  
 - **4.0 — Average Rating**
 
 ---
 
 ## 📊 Major Insights From the Report
 
-### 🔹 1. Item Type Contribution  
-The highest-selling categories include:
-- Fruits & Vegetables  
-- Snack Foods  
-- Household items  
-- Frozen Foods  
-- Dairy products  
-
-### 🔹 2. Fat Content Analysis  
-- **Low Fat** and **Regular Fat** categories contribute significant sales  
-- Donut chart tracks % contribution
-
-### 🔹 3. Outlet Type Performance  
-- Supermarket types show strong performance  
-- Grocery stores show selective high-performing items
-
-### 🔹 4. Outlet Size  
-Distribution of total sales across:
-- **High**
-- **Medium**
-- **Small**
-
-### 🔹 5. Outlet Location (Tier)  
-Revenue by tier:
-- **Tier 3 → $471.1K**  
-- **Tier 2 → $393.2K**  
-- **Tier 1 → $386.4K**
-
-### 🔹 6. Yearly Establishment Trend  
-A line chart showing outlet contributions from **2011 to 2022**, helping identify business growth and seasonal patterns.
-
-### 🔹 7. Fat by Outlet  
-Insights into which outlet level (Tier 1, Tier 2, Tier 3) sells more fat-content categories.
+- **Item Type Contribution:** Fruits & Vegetables, Snack Foods, Household, Frozen Foods, Dairy.  
+- **Fat Content Analysis:** Low Fat and Regular Fat contribute significant sales.  
+- **Outlet Type Performance:** Supermarkets vs Grocery stores — relative contributions.  
+- **Outlet Size:** Sales distribution across High / Medium / Small outlets.  
+- **Outlet Location (Tier):** Tier-wise revenue comparison (Tier 3 / Tier 2 / Tier 1).  
+- **Yearly Establishment Trend:** Outlet contribution trends by establishment year.
 
 ---
 
-## 🔍 Slicers in the Report
+## 🔍 Interactivity & Features (Excel)
 
-- **Outlet Size**  
-- **Outlet Location Type** (Tier 1 / Tier 2 / Tier 3)  
-- **Outlet Type**  
-- **Item Type**  
-- **Fat Content**  
-- **Outlet Establishment Year**  
-
-These slicers make the report fully interactive.
+- **Power Query** — ETL: import, clean, transform and normalize source data.  
+- **Power Pivot / Data Model** — relationships, measures (DAX in Excel Power Pivot if used).  
+- **PivotTables** — dynamic aggregation and drill-down.  
+- **Pivot Charts & Standard Charts** — KPI visuals, bar/line/donut charts, area charts.  
+- **Slicers / Timelines** — interactive filtering by Outlet Size, Tier, Item Type, Fat Content, Year.
 
 ---
 
-## 🛠️ Tools & Techniques Used
+## ▶️ How to Open & Use
 
-### **Power Query**
-- Data cleaning  
-- Transformation  
-- Handling missing values  
-- Column formatting  
-
-### **DAX Measures**
-- Total Sales  
-- Average Sales  
-- Number of Items  
-- Average Rating  
-- Item category totals  
-- Outlet-level performance metrics  
-
-### **Visuals Used**
-- KPI Cards  
-- Bar Charts  
-- Donut Charts  
-- Line Charts  
-- Category Contribution Charts  
-- Outlet Size & Tier Analysis  
-- Outlet Type Comparisons  
-
----
-
-## 🖼️ Dashboard Preview
-
-![Blinkit Sales Dashboard](BlinkIT_Report_Snapshot.png)
-
----
-
-## ▶️ How to Use the Report
-2. Load it into Power BI Desktop.  
-3. Build visuals or connect to your existing `.pbix` file.  
-4. Interact with slicers to explore deeper insights.
+1. Download the Excel file:  
+2. Open the workbook in **Excel (Windows recommended)**.  
+3. If prompted, **Enable Content** and **Enable Data Connections**.  
+4. Use the pivot sheets and slicers to interact with the report.  
+5. (If using Power Pivot) Go to **Data → Manage Data Model** to view measures and relationships.  
+6. To refresh data: **Data → Refresh All** (after replacing or updating the raw data sheet).
 
 ---
 
 ## 📌 Notes
 
-- Dataset is for analytics and portfolio purposes.  
-- No sensitive or confidential information is included.  
-- The dashboard theme follows **Blinkit brand colors (yellow, black, green).**
+- This project is implemented entirely in **Excel** (no Power BI).  
+- The workbook contains the source data and the interactive report sheets — suitable for sharing and further extension.  
+- No confidential information is included.
 
 ---
 
@@ -146,7 +85,3 @@ These slicers make the report fully interactive.
 **Nalgar Ahmed Faheen**  
 📧 Email: **ahmedfaheen546@gmail.com**  
 🔗 LinkedIn: **https://www.linkedin.com/in/nalgar-ahmed-faheen-2a28b022a**
-
-
-
-1. Download the dataset:
